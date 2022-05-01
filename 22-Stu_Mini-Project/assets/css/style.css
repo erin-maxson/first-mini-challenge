@@ -1,0 +1,103 @@
+/* Universal Formatting: Background Color, Font Family */
+* {
+   /* Webpage background color - Light Cyan */
+    background-color: lightcyan;
+    /* Universal Font Family of Arial, Helvetica, sans-serif */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Title Display */
+title {
+    /* Removes title from frontend viewing */
+    display: none;
+}
+
+/* Navigation Formatting  */
+header {
+    /* Aligns Header to right side of page */
+    text-align: right;
+}
+
+/* h1 Formatting */
+h1 {
+    /* h1 Font Color: Dark Cyan */
+    color: darkcyan;
+    /* h1 Text Aligns to center */
+    text-align: center;
+}
+
+/* h2, h3, p Formatting */
+h2, h3, p {
+    /* h2 text aligns to center */
+    text-align: center;
+}
+
+ul {
+    background-color: darkblue;
+}
+
+/* List Formatting (Nav List) */
+header nav ul li {
+    /* List displays inline */
+    display: inline;
+    /* List background color is Dark Blue */
+    background-color: darkblue;
+    /* List margin is 10px */
+    margin-left: 5px;
+    /* List font color is white */
+    color: white;
+}
+
+/* Footer formatting */
+footer article p {
+    background-color: darkblue;
+    color: white;
+    margin-left: -8px;
+    padding: 10px;
+}
+
+/* Nav class sticky formatting */
+.sticky {
+    /* Nav position is fixed */
+    position: fixed;
+    /* Nav position is 0px from top */
+    top: 0px;
+    /* Nav width is 100% of webpage */
+    width: 100%;
+}
+
+/* Nav width is 100% of webpage */
+.header {
+  padding: 0px;
+  margin-left: -8px;
+  background: darkblue;
+}
+
+/* Centering form information */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+/* Centering all webpage information */
+.content {
+    max-width: 800px;
+    margin: auto;
+    padding: 16px;
+  }
+
+  /* Ensuring header nav stays sticky over content scroll */
+.sticky + .content {
+    padding-top: 100px;
+}
+
+#Rory, #Asta, #Charlie {
+    display: inline;
+    max-width: 150px;
+    max-height: 300px;
+    margin-left: 30px;
+    padding: 10px;
+    border: 10px solid darkcyan;
+}
